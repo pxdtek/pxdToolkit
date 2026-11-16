@@ -188,6 +188,19 @@
       "commandNote": "Runs the console edition on any PC with nothing to install: uninstall programs and Store apps (quietly when possible), then pick which leftovers to remove.",
       "color": "#A23CE0",
       "iconUrl": "https://pxdtek.com/raw/pxdToolkit/Assets/icons/pxdUninstaller.png"
+    },
+    {
+      "id": "pxdNotepad",
+      "name": "pxd Notepad",
+      "tagline": "Fast notes with instant search",
+      "description": "Notes with search as you type across everything, folders inside folders, rich text, pictures you can mark up, tags with icons, line numbers, daily date lines, clickable phone numbers and links, blur for passwords, a writing mode, and encrypted sync between your PCs.",
+      "repo": "pxdtek/pxdNotepad",
+      "kind": "zip",
+      "asset": "^pxdNotepad-.*-win-x64\\.zip$",
+      "exe": "pxdNotepad.exe",
+      "folder": "pxdNotepad",
+      "color": "#39C5CF",
+      "iconUrl": "https://pxdtek.com/raw/pxdToolkit/Assets/icons/pxdNotepad.png"
     }
   ]
 }
