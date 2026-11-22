@@ -296,6 +296,21 @@
       "elevate": true,
       "color": "#F0A060",
       "iconUrl": "https://pxdtek.com/raw/pxdToolkit/Assets/icons/pxdHardwareMonitor.png"
+    },
+    {
+      "id": "pxdSpeak",
+      "tray": true,
+      "name": "pxd Speak",
+      "tagline": "Reads selected text aloud",
+      "description": "Select text in any app, press Ctrl+Alt+R and hear it in a natural AI voice. Free offline voices (Kokoro, Piper, Windows, and Chatterbox on NVIDIA graphics cards, which can copy a voice from a short clip), and a browser extension that highlights each word on the page as it is read.",
+      "repo": "pxdtek/pxdSpeak",
+      "kind": "zip",
+      "asset": "^pxdSpeak-.*-win-x64\\.zip$",
+      "exe": "pxdSpeak.exe",
+      "folder": "pxdSpeak",
+      "trayArgs": "--minimized",
+      "color": "#19C8B4",
+      "iconUrl": "https://pxdtek.com/raw/pxdToolkit/Assets/icons/pxdSpeak.png"
     }
   ]
 }
